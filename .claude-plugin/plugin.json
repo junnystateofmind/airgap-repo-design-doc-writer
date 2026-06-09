@@ -1,0 +1,10 @@
+{
+  "name": "repo-design-doc-writer",
+  "version": "0.1.0",
+  "description": "레포 전체 설계/아키텍처 문서 작성기 - 폐쇄망(에어갭) 환경에서 인터넷 없이 코드베이스 이해",
+  "author": {
+    "name": "junny"
+  },
+  "homepage": "https://github.com/junnystateofmind/airgap-repo-design-doc-writer",
+  "repository": "https://github.com/junnystateofmind/airgap-repo-design-doc-writer"
+}
