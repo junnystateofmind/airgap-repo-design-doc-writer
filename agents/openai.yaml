@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Design Doc Writer"
+  short_description: "Write full-repo architecture docs"
+  default_prompt: "Use $repo-design-doc-writer to write a full-repo architecture and onboarding design document."
