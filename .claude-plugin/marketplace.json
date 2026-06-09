@@ -11,10 +11,10 @@
       "name": "repo-design-doc-writer",
       "version": "0.1.0",
       "description": "레포 전체 설계/아키텍처 문서 작성기",
-      "author": {
-        "name": "junny"
+      "source": {
+        "source": "url",
+        "url": "https://github.com/junnystateofmind/airgap-repo-design-doc-writer.git"
       },
-      "source": ".",
       "category": "development",
       "keywords": ["architecture", "design-doc", "airgap", "skill", "korean"]
     }
