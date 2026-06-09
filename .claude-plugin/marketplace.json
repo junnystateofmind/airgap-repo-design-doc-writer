@@ -1,14 +1,29 @@
 {
-  "name": "repo-design-doc-writer",
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "airgap-repo-design-doc-writer",
   "version": "0.1.0",
-  "description": "레포 전체 설계/아키텍처 문서 작성기 - 폐쇄망(에어갭) 환경용",
-  "source": "github",
-  "author": "junnystateofmind",
-  "repository": "junnystateofmind/airgap-repo-design-doc-writer",
-  "skills": [
-    "SKILL.md"
-  ],
-  "agents": [
-    "agents/openai.yaml"
+  "description": "레포 전체 설계/아키텍처 문서 작성기 - 폐쇄망(에어갭)의 내부 코딩 에이전트와 개발자가 인터넷 없이도 코드베이스를 이해하도록 한다.",
+  "owner": {
+    "name": "junny",
+    "email": "",
+    "url": "https://github.com/junnystateofmind"
+  },
+  "plugins": [
+    {
+      "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+      "name": "repo-design-doc-writer",
+      "version": "0.1.0",
+      "description": "레포 전체 설계/아키텍처 문서 작성기 - 폐쇄망(에어갭) 환경용",
+      "author": {
+        "name": "junny",
+        "url": "https://github.com/junnystateofmind"
+      },
+      "homepage": "https://github.com/junnystateofmind/airgap-repo-design-doc-writer",
+      "repository": "https://github.com/junnystateofmind/airgap-repo-design-doc-writer",
+      "source": "https://github.com/junnystateofmind/airgap-repo-design-doc-writer",
+      "category": "development",
+      "keywords": ["architecture", "design-doc", "airgap", "skill"],
+      "license": "MIT"
+    }
   ]
 }
