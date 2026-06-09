@@ -1,0 +1,14 @@
+{
+  "name": "repo-design-doc-writer",
+  "version": "0.1.0",
+  "description": "레포 전체 설계/아키텍처 문서 작성기 - 폐쇄망(에어갭) 환경용",
+  "source": "github",
+  "author": "junnystateofmind",
+  "repository": "junnystateofmind/airgap-repo-design-doc-writer",
+  "skills": [
+    "SKILL.md"
+  ],
+  "agents": [
+    "agents/openai.yaml"
+  ]
+}
